@@ -13,7 +13,9 @@
     "eslint-config-prettier": "^6.4.0"
   },
   "peerDependencies": {
-    "eslint-plugin-jest": "^22.19.0"
+    "eslint-plugin-jest": "^22.19.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-import": "^2.18.2"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

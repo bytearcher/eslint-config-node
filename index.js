@@ -6,7 +6,13 @@ module.exports = {
     node: true
   },
   // extends: "eslint:all",
-  extends: ["eslint:recommended", "plugin:jest/recommended", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "prettier",
+    "plugin:promise/recommended",
+    "plugin:import/errors"
+  ],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -37,7 +43,9 @@ module.exports = {
     "func-style": ["error", "declaration", { allowArrowFunctions: false }],
     "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     "new-cap": ["error"],
-    "prefer-arrow-callback": ["error"]
-    // "prefer-destructuring": ["error"]
+    "prefer-arrow-callback": ["error"],
+    // "prefer-destructuring": ["error"],
+    // promise plugin
+    "promise/prefer-await-to-then": "error"
   }
 };
