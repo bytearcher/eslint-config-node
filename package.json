@@ -1,5 +1,5 @@
 {
-  "name": "@bytearcher/eslint-config",
+  "name": "@bytearcher/eslint-config-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
