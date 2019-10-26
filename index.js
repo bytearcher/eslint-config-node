@@ -46,6 +46,7 @@ module.exports = {
     "prefer-arrow-callback": ["error"],
     // "prefer-destructuring": ["error"],
     // promise plugin
-    "promise/prefer-await-to-then": "error"
+    "promise/prefer-await-to-then": "error",
+    "curly": ["error", "all"]
   }
 };
