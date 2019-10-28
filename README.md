@@ -2,18 +2,10 @@
 
 Install dependencies
 
-    npm install --save-dev <this package>
-    npm install --save-dev eslint-plugin-jest
-    npm install --save-dev eslint-plugin-prettier
+    npm install --save-dev bytearcher/eslint-config-node eslint eslint-plugin-jest eslint-plugin-promise  eslint-plugin-import
 
 Setup .eslintrc.js
 
     module.exports = {
-      extends: ["@bytearcher/eslint-config/eslintrc-node"]
+      extends: ["@bytearcher/eslint-config-node"]
     };
-
-or in package.json
-
-      "eslintConfig": {
-        "extends": "@bytearcher/eslint-config/eslintrc-node"
-      },
