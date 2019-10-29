@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-prettier": "^6.4.0"
+    "eslint-config-prettier": "^6.5.0"
   },
   "peerDependencies": {
     "eslint-plugin-jest": "^22.19.0",
