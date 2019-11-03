@@ -6,13 +6,7 @@ module.exports = {
     node: true
   },
   // extends: "eslint:all",
-  extends: [
-    "eslint:recommended",
-    "plugin:jest/recommended",
-    "prettier",
-    "plugin:promise/recommended",
-    "plugin:import/errors"
-  ],
+  extends: ["eslint:recommended", "plugin:jest/recommended", "prettier", "plugin:promise/recommended", "plugin:import/errors"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -21,32 +15,32 @@ module.exports = {
     ecmaVersion: 2020
   },
   rules: {
-    "linebreak-style": ["error", "unix"],
-    "no-var": ["error"],
-    "prefer-const": ["error"],
+    "callback-return": ["error"],
     "consistent-return": ["error"],
-    eqeqeq: ["error"],
+    "curly": ["error", "all"],
+    "eqeqeq": ["error"],
+    "func-style": ["error", "declaration", { allowArrowFunctions: false }],
+    "global-require": ["error"],
     "guard-for-in": ["error"],
+    "handle-callback-err": ["error"],
+    "import/first": "error",
+    "import/order": ["error", { "newlines-between": "always", groups: [["builtin", "external"]] }],
+    "jest/expect-expect": "off",
+    "linebreak-style": ["error", "unix"],
     "max-classes-per-file": ["error"],
+    "new-cap": ["error"],
+    "no-buffer-constructor": ["error"],
     "no-extra-bind": ["error"],
     "no-floating-decimal": ["error"],
     "no-implicit-coercion": ["error"],
     "no-return-await": ["error"],
     "no-sequences": ["error"],
-    "prefer-promise-reject-errors": ["error"],
-    // "require-await": ["error"],
-    yoda: ["error"],
-    "callback-return": ["error"],
-    "global-require": ["error"],
-    "handle-callback-err": ["error"],
-    "no-buffer-constructor": ["error"],
-    "func-style": ["error", "declaration", { allowArrowFunctions: false }],
     "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
-    "new-cap": ["error"],
+    "no-var": ["error"],
     "prefer-arrow-callback": ["error"],
-    // "prefer-destructuring": ["error"],
-    // promise plugin
+    "prefer-const": ["error"],
+    "prefer-promise-reject-errors": ["error"],
     "promise/prefer-await-to-then": "error",
-    "curly": ["error", "all"]
+    "yoda": ["error"]
   }
 };
