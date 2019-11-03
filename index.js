@@ -5,7 +5,6 @@ module.exports = {
     es6: true,
     node: true
   },
-  // extends: "eslint:all",
   extends: ["eslint:recommended", "plugin:jest/recommended", "prettier", "plugin:promise/recommended", "plugin:import/errors"],
   globals: {
     Atomics: "readonly",
@@ -26,6 +25,7 @@ module.exports = {
     "import/first": "error",
     "import/order": ["error", { "newlines-between": "always", groups: [["builtin", "external"]] }],
     "jest/expect-expect": "off",
+    "jest/no-standalone-expect": "off",
     "linebreak-style": ["error", "unix"],
     "max-classes-per-file": ["error"],
     "new-cap": ["error"],
