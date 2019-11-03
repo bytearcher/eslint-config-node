@@ -37,6 +37,7 @@ module.exports = {
     "no-sequences": ["error"],
     "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     "no-var": ["error"],
+    "object-shorthand": "error",
     "prefer-arrow-callback": ["error"],
     "prefer-const": ["error"],
     "prefer-promise-reject-errors": ["error"],
