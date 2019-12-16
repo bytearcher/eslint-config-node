@@ -7,14 +7,18 @@ Install dependencies
 
 Setup .eslintrc.js
 
+    cat > .eslintrc.js << EOF 
     module.exports = {
       extends: ["@bytearcher/eslint-config-node"]
     };
+    EOF
 
 Setup .prettierrc
 
+    cat > .prettierrc << EOF 
     {
       "printWidth": 150,
       "jsxBracketSameLine": true,
       "arrowParens": "always"
     }
+    EOF
