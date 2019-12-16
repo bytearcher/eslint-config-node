@@ -12,6 +12,7 @@ Setup .eslintrc.js
       extends: ["@bytearcher/eslint-config-node"]
     };
     EOF
+    
 
 Setup .prettierrc
 
@@ -22,3 +23,4 @@ Setup .prettierrc
       "arrowParens": "always"
     }
     EOF
+    
