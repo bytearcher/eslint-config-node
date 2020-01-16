@@ -11,7 +11,8 @@ module.exports = {
     SharedArrayBuffer: "readonly"
   },
   parserOptions: {
-    ecmaVersion: 2020
+    ecmaVersion: 2020,
+    sourceType: "module"
   },
   rules: {
     "callback-return": ["error"],
