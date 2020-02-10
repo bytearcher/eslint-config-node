@@ -36,7 +36,7 @@ module.exports = {
     "no-implicit-coercion": ["error"],
     "no-return-await": ["error"],
     "no-sequences": ["error"],
-    "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
+    "no-unused-vars": ["error", { argsIgnorePattern: "^next$|^_" }],
     "no-var": ["error"],
     "object-shorthand": "error",
     "prefer-arrow-callback": ["error"],
