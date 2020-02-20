@@ -15,7 +15,8 @@
   "peerDependencies": {
     "eslint-plugin-jest": "*",
     "eslint-plugin-promise": "*",
-    "eslint-plugin-import": "*"
+    "eslint-plugin-import": "*",
+    "eslint-plugin-sort-requires": "*"
   },
   "devDependencies": {
     "prettier": "*"
