@@ -6,9 +6,7 @@ module.exports = {
     node: true
   },
   extends: ["eslint:recommended", "plugin:jest/recommended", "prettier", "plugin:promise/recommended", "plugin:import/errors"],
-  plugins: [
-    "sort-requires"
-  ],
+  plugins: ["sort-requires"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -18,8 +16,8 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
-    "curly": ["error", "all"],
-    "eqeqeq": ["error"],
+    curly: ["error", "all"],
+    eqeqeq: ["error"],
     "func-style": ["error", "declaration", { allowArrowFunctions: false }],
     "global-require": ["error"],
     "guard-for-in": ["error"],
@@ -44,7 +42,7 @@ module.exports = {
     "prefer-const": ["error"],
     "prefer-promise-reject-errors": ["error"],
     "promise/prefer-await-to-then": "error",
-    "sort-requires/sort-requires": "error"
-    "yoda": ["error"]
+    "sort-requires/sort-requires": "error",
+    yoda: ["error"]
   }
 };
