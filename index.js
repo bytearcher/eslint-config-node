@@ -6,6 +6,9 @@ module.exports = {
     node: true
   },
   extends: ["eslint:recommended", "plugin:jest/recommended", "prettier", "plugin:promise/recommended", "plugin:import/errors"],
+  plugins: [
+    "sort-requires"
+  ],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly"
@@ -41,6 +44,7 @@ module.exports = {
     "prefer-const": ["error"],
     "prefer-promise-reject-errors": ["error"],
     "promise/prefer-await-to-then": "error",
+    "sort-requires/sort-requires": "error"
     "yoda": ["error"]
   }
 };
