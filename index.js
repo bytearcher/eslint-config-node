@@ -16,6 +16,8 @@ module.exports = {
     sourceType: "module"
   },
   rules: {
+    "callback-return": "off",
+    "consistent-return": "off",
     curly: ["error", "all"],
     eqeqeq: ["error"],
     "func-style": ["error", "declaration", { allowArrowFunctions: false }],
