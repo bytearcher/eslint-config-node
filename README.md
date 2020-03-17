@@ -2,7 +2,7 @@
 
 Copy & paste the following to your terminal.
 
-    #Install dependencies
+    # Install dependencies
 
     npm install --save-dev bytearcher/eslint-config-node eslint eslint-plugin-jest eslint-plugin-promise eslint-plugin-import eslint-plugin-sort-requires
     npm install --save-dev prettier
@@ -28,4 +28,6 @@ Copy & paste the following to your terminal.
     
     find -type f \( -iname \*.js -o -iname \*.jsx -o -iname \*.json -o -iname \*.ts -o -iname \*.tsx \) -not -path '*node_modules/*' -exec npx eslint --fix \{\} \;
     find -type f \( -iname \*.js -o -iname \*.jsx -o -iname \*.json -o -iname \*.ts -o -iname \*.tsx \) -not -path '*node_modules/*' -exec npx prettier --write \{\} \;
+    
+    echo Done
     
