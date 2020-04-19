@@ -28,6 +28,7 @@ module.exports = {
     "import/order": ["error", { "newlines-between": "always", groups: [["builtin", "external"]] }],
     "jest/expect-expect": "off",
     "jest/no-standalone-expect": "off",
+    "jest/no-test-callback": "off",
     "linebreak-style": ["error", "unix"],
     "max-classes-per-file": ["error"],
     "new-cap": ["error"],
