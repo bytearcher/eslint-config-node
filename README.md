@@ -11,6 +11,7 @@ Copy & paste the following to your terminal.
 
     cat > .eslintrc.js << EOF 
     module.exports = {
+      root: true,
       extends: ["@bytearcher/eslint-config-node"]
     };
     EOF
