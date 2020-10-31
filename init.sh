@@ -7,7 +7,7 @@ npm install --save-dev jest prettier bytearcher/eslint-config-node eslint eslint
 cat > .eslintrc.js << EOF
 module.exports = {
   root: true,
-  extends: ["@bytearcher/eslint-config-node"]
+  extends: ["@bytearcher/eslint-config-node"],
 };
 EOF
 
