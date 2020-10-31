@@ -1,7 +1,6 @@
 # Install dependencies
 
-npm install --save-dev bytearcher/eslint-config-node eslint eslint-plugin-jest eslint-plugin-promise eslint-plugin-import eslint-plugin-sort-requires
-npm install --save-dev prettier
+npm install --save-dev jest prettier bytearcher/eslint-config-node eslint eslint-plugin-jest eslint-plugin-promise eslint-plugin-import eslint-plugin-sort-requires
 
 # Setup .eslintrc.js
 
