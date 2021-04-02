@@ -22,7 +22,7 @@ cat > .prettierrc << EOF
 }
 EOF
 
-find -type f \( -iname \*.js -o -iname \*.jsx -o -iname \*.json -o -iname \*.ts -o -iname \*.tsx \) -not -path '*node_modules/*' -not -path './dist/*' -exec npx eslint --fix \{\} \;
+find -type f \( -iname \*.js -o -iname \*.jsx -o -iname \*.ts -o -iname \*.tsx \) -not -path '*node_modules/*' -not -path './dist/*' -exec npx eslint --fix \{\} \;
 find -type f \( -iname \*.js -o -iname \*.jsx -o -iname \*.json -o -iname \*.ts -o -iname \*.tsx \) -not -path '*node_modules/*' -not -path './dist/*' -exec npx prettier --write \{\} \;
 
 echo Done
