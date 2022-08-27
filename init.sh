@@ -17,7 +17,6 @@ EOF
 cat > .prettierrc << EOF
 {
   "printWidth": 150,
-  "jsxBracketSameLine": true,
   "arrowParens": "always"
 }
 EOF
